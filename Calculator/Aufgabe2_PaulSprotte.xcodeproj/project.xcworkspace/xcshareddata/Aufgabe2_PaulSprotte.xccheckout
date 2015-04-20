@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A136E1C4-A08E-43AD-A0A9-A8515DEC756F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Aufgabe2_PaulSprotte</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</key>
+		<string>https://github.com/Sprotte/iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Aufgabe 2/Aufgabe2_PaulSprotte/Aufgabe2_PaulSprotte.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sprotte/iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</string>
+			<key>IDESourceControlWCCName</key>
+			<string>25%20iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
