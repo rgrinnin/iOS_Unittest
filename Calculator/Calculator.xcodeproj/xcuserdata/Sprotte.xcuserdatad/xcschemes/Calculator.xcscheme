@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A60633981AD8012C0025036E"
-               BuildableName = "Aufgabe2_PaulSprotte.app"
-               BlueprintName = "Aufgabe2_PaulSprotte"
-               ReferencedContainer = "container:Aufgabe2_PaulSprotte.xcodeproj">
+               BlueprintIdentifier = "A6AA96E61AE8616700D94B65"
+               BuildableName = "Calculator.app"
+               BlueprintName = "Calculator"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A60633AD1AD8012C0025036E"
-               BuildableName = "Aufgabe2_PaulSprotteTests.xctest"
-               BlueprintName = "Aufgabe2_PaulSprotteTests"
-               ReferencedContainer = "container:Aufgabe2_PaulSprotte.xcodeproj">
+               BlueprintIdentifier = "A6AA96FF1AE8616700D94B65"
+               BuildableName = "CalculatorTests.xctest"
+               BlueprintName = "CalculatorTests"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A60633AD1AD8012C0025036E"
-               BuildableName = "Aufgabe2_PaulSprotteTests.xctest"
-               BlueprintName = "Aufgabe2_PaulSprotteTests"
-               ReferencedContainer = "container:Aufgabe2_PaulSprotte.xcodeproj">
+               BlueprintIdentifier = "A6AA96FF1AE8616700D94B65"
+               BuildableName = "CalculatorTests.xctest"
+               BlueprintName = "CalculatorTests"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A60633981AD8012C0025036E"
-            BuildableName = "Aufgabe2_PaulSprotte.app"
-            BlueprintName = "Aufgabe2_PaulSprotte"
-            ReferencedContainer = "container:Aufgabe2_PaulSprotte.xcodeproj">
+            BlueprintIdentifier = "A6AA96E61AE8616700D94B65"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A60633981AD8012C0025036E"
-            BuildableName = "Aufgabe2_PaulSprotte.app"
-            BlueprintName = "Aufgabe2_PaulSprotte"
-            ReferencedContainer = "container:Aufgabe2_PaulSprotte.xcodeproj">
+            BlueprintIdentifier = "A6AA96E61AE8616700D94B65"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A60633981AD8012C0025036E"
-            BuildableName = "Aufgabe2_PaulSprotte.app"
-            BlueprintName = "Aufgabe2_PaulSprotte"
-            ReferencedContainer = "container:Aufgabe2_PaulSprotte.xcodeproj">
+            BlueprintIdentifier = "A6AA96E61AE8616700D94B65"
+            BuildableName = "Calculator.app"
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

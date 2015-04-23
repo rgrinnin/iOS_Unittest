@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A136E1C4-A08E-43AD-A0A9-A8515DEC756F</string>
+	<string>044D330E-6270-4003-9245-C4D491EF5E0F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Aufgabe2_PaulSprotte</string>
+	<string>Calculator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</key>
-		<string>https://github.com/Sprotte/iOS.git</string>
+		<key>B91995E746148A63E92C3B14B820D0D75042F7C0</key>
+		<string>https://github.com/Sprotte/iOS_Unittest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Aufgabe 2/Aufgabe2_PaulSprotte/Aufgabe2_PaulSprotte.xcodeproj</string>
+	<string>Calculator/Calculator.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</key>
-		<string>../../../..</string>
+		<key>B91995E746148A63E92C3B14B820D0D75042F7C0</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Sprotte/iOS.git</string>
+	<string>https://github.com/Sprotte/iOS_Unittest.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</string>
+	<string>B91995E746148A63E92C3B14B820D0D75042F7C0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>23C89B5E3FA98B390BCBFF28B60B136E1E71DA28</string>
+			<string>B91995E746148A63E92C3B14B820D0D75042F7C0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>25%20iOS</string>
+			<string>Testing%20Frameworks%20Test</string>
 		</dict>
 	</array>
 </dict>
