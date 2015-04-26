@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E7644B1-8E86-48C4-846B-1038A8CB1FE0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Calculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B91995E746148A63E92C3B14B820D0D75042F7C0</key>
+		<string>https://github.com/Sprotte/iOS_Unittest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Calculator/Calculator.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B91995E746148A63E92C3B14B820D0D75042F7C0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sprotte/iOS_Unittest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B91995E746148A63E92C3B14B820D0D75042F7C0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B91995E746148A63E92C3B14B820D0D75042F7C0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Testing%20Frameworks%20Test</string>
+		</dict>
+	</array>
+</dict>
+</plist>
