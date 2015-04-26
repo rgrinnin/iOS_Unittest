@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Paul Sprotte. All rights reserved.
 //
 #import "ViewController.h"
+#import "Calculator.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *viewText;
 @end
@@ -45,16 +46,20 @@ char nextOperation;
 -(void) calculat{
     switch (nextOperation) {
         case '+':
-            _viewText.text = [@(a = b + a) stringValue];
+            a = [Calculator addA:a andB:b];
+            _viewText.text = [@(a) stringValue];
             break;
         case '-':
-            _viewText.text = [@(a = b - a) stringValue];
+            a = [Calculator subtractA:a andB:b];
+            _viewText.text = [@(a) stringValue];
             break;
         case '*':
-            _viewText.text = [@(a = b * a) stringValue];
+            a = [Calculator multiplyA:a andB:b];
+            _viewText.text = [@(a) stringValue];
             break;
         case '/':
-            _viewText.text = [@(a = b / a) stringValue];
+            a = [Calculator divideA:a andB:b];
+            _viewText.text = [@(a) stringValue];
             break;
         default:
             break;
