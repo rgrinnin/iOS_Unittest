@@ -48,6 +48,20 @@
                ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A619BEDD1AED89AA0026892F"
+               BuildableName = "CalculatorTestsSpecta.xctest"
+               BlueprintName = "CalculatorTestsSpecta"
+               ReferencedContainer = "container:Calculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -73,6 +87,16 @@
                BlueprintIdentifier = "A619BEC71AED675A0026892F"
                BuildableName = "CalculatorTests2.xctest"
                BlueprintName = "CalculatorTests2"
+               ReferencedContainer = "container:Calculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A619BEDD1AED89AA0026892F"
+               BuildableName = "CalculatorTestsSpecta.xctest"
+               BlueprintName = "CalculatorTestsSpecta"
                ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>

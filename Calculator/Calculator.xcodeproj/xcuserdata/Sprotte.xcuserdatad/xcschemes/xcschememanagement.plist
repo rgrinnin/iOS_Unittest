@@ -9,15 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>CalculatorTest2.xcscheme</key>
+		<key>CalculatorSpectaTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A619BEC71AED675A0026892F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A619BEDD1AED89AA0026892F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

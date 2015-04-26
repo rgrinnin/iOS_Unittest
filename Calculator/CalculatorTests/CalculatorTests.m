@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Calculator.h"
 
 @interface CalculatorTests : XCTestCase
 
@@ -25,11 +26,19 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testAdd {
+    XCTAssertEqual([Calculator addA:10 andB:10], 20, @"Addition Failed");
+}
+- (void)testSubtract {
+    XCTAssertEqual([Calculator subtractA:10 andB:20], -10, @"Subtract Failed");
 }
 
+- (void)testMultiply {
+    XCTAssertEqual([Calculator multiplyA:10 andB:2], 20, @"Multiply Failed");
+}
+- (void)testDivide {
+    XCTAssertEqual([Calculator divideA:10 andB:2], 5, @"Divide Failed");
+}
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
