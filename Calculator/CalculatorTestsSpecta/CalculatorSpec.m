@@ -36,7 +36,7 @@ describe(@"Calculator", ^{
         });
         
         it(@"it should multipy to numbers correctly", ^{
-            expect([Calculator multiplyA:10 andB:2]).to.equal(25);
+            expect([Calculator multiplyA:10 andB:2]).to.equal(20);
         });
     });
     
@@ -51,7 +51,16 @@ describe(@"Calculator", ^{
         });        
     });
     
-    
+    describe(@"Performence Test", ^{
+        it(@"should fetch result",^{
+                [self measureBlock:^{
+                    for (int i = 1; i <INT16_MAX; i++) {
+                        for (int k = 1; k <INT16_MAX; k++) {
+                        };
+                    };
+                }];            
+        });
+    });
     afterEach(^{
         
     });

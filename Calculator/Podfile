@@ -1,8 +1,14 @@
 target :CalculatorTests, :exclusive => true do
    pod "Specta"
    pod "Expecta"
+   pod "OCMock"
+   pod "OCHamcrest"
+   pod "OCMockito"
 end
 target :CalculatorTestsSpecta, :exclusive => true do
     pod "Specta"
     pod "Expecta"
+    pod "OCMock"
+    pod "OCHamcrest"
+    pod "OCMockito"
 end

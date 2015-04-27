@@ -48,11 +48,14 @@
     [self waitForExpectationsWithTimeout:5.0 handler:nil];
     
 }
-
+/*
 - (void)testPerformance{
     [self measureBlock:^{
-        // Put the code you want to measure the time of here.
+        for (int i = 1; i <INT16_MAX; i++) {
+            for (int k = 1; k <INT16_MAX; k++) {
+            };
+        };
     }];
 }
-
+*/
 @end
