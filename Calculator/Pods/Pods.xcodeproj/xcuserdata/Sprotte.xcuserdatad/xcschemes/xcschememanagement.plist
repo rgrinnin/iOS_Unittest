@@ -4,125 +4,197 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-CalculatorIntegrationTestsKif-Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-CalculatorIntegrationTestsKif-KIF.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-CalculatorIntegrationTestsKif-OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-CalculatorIntegrationTestsKif-Specta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Pods-CalculatorIntegrationTestsKif.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Pods-CalculatorTests-Expecta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>Pods-CalculatorTests-OCHamcrest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>Pods-CalculatorTests-OCMock.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>Pods-CalculatorTests-OCMockito.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>Pods-CalculatorTests-Specta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>Pods-CalculatorTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>Pods-CalculatorTestsSpecta-Expecta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>Pods-CalculatorTestsSpecta-OCHamcrest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>15</integer>
 		</dict>
 		<key>Pods-CalculatorTestsSpecta-OCMock.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-		</dict>
-		<key>Pods-CalculatorTestsSpecta-OCMockito.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 		<key>Pods-CalculatorTestsSpecta-Specta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>17</integer>
 		</dict>
 		<key>Pods-CalculatorTestsSpecta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>29472A072FE5937E59C1AC88</key>
+		<key>00C4845D9A72A267D2D5254B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3FBFF02E2B895415CF409D4E</key>
+		<key>011F950ED77CFBD9DA052B43</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>511D9E51181375574C95B31E</key>
+		<key>0BAD26FD2C1852724D8B2714</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>58A2D81A57CC50E2AAC1B706</key>
+		<key>23F9F0C999061A212024F5FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7A80AC5C9274CB78308B0F1D</key>
+		<key>42FC122DF93ABE2FCE31504A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8E3E2E5DF0CB65184027E513</key>
+		<key>55A309955E2A34264CDCEB3D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91DCD9A81D2C7BEFF87721C2</key>
+		<key>5F9F8A789F0ED90A3C4AEA50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>95508CEF6A6900BC96B2388D</key>
+		<key>67A8C1C7108D63D69AC416BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1A63486841D75AF33AAF47C</key>
+		<key>6D5A30A8F633777228791DA3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AA8DF9940C4A198254AC7362</key>
+		<key>74891842B8D32D5C5D7FF193</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B852F9B20F4FF9879A4DA957</key>
+		<key>758CA356B747FA98708D61F0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA7FD3AB6A1CDCE7E059FCE0</key>
+		<key>7FF07D9A2CDF24454BFF0440</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC23EAEFF5772CC03C7653B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5ED2DB027AC8D4481453BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D564A57467788D73723EA753</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCD093D0F341B013F07DB211</key>
 		<dict>
 			<key>primary</key>
 			<true/>

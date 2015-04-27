@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CalculatorAllTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>CalculatorIntegrationTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>CalculatorSpectaTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>A619BEDD1AED89AA0026892F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A619BEFB1AEEDCA70026892F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -40,7 +40,7 @@ describe(@"Calculator", ^{
             expect([Calculator multiplyA:10 andB:2]).to.equal(20);
         });
     });
-    
+    /*
     describe((@"Networking calculations"), ^{
         it(@"should fetch result from network",^{
             waitUntil(^(DoneCallback done) {
@@ -62,7 +62,7 @@ describe(@"Calculator", ^{
             }];            
         });
     });
-    
+    */
     afterEach(^{
         
     });
