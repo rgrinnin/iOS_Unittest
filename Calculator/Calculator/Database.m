@@ -14,15 +14,15 @@
     return 0;
 };
 
--(int) get42{
-    NSLog(@"%d",42);
+-(int) getDatabasedata{
     return 42;
 };
 
 -(void) doSomething{
 };
 
--(void) doSomethingWithArgument:(id)item{
+-(void) doSomethingWithArgument:(int)value{
+    self.value = value;
 };
 
 @end

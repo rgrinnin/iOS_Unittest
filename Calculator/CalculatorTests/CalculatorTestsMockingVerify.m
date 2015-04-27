@@ -81,18 +81,16 @@
 
 - (void)testVerifyArgumentsOCMockito {
     
-    [self.databaseMocktio doSomethingWithArgument:nil];
+    [self.databaseMocktio doSomethingWithArgument:3];
     
-    [verify(self.databaseMocktio) doSomethingWithArgument:nil];
+    [verify(self.databaseMocktio) doSomethingWithArgument:3];
 }
 
 - (void)testVerifyArgumentsOCMock {
     
-    id i = [Database new];
+    [[self.databaseOCMock expect] doSomethingWithArgument:3];
     
-    [[self.databaseOCMock expect] doSomethingWithArgument:i];
-    
-    [self.databaseOCMock doSomethingWithArgument:(i)];
+    [self.databaseOCMock doSomethingWithArgument:3];
     
     [self.databaseOCMock verify];
 }

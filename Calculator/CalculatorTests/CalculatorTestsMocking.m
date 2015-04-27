@@ -26,14 +26,6 @@
 
 @implementation CalculatorTestsMocking
 
-- (void)setUp {
-    [super setUp];
-}
-
-- (void)tearDown {
-    [super tearDown];
-}
-
 - (void)testPrimeNumber1337OCMock {
     Database *database = [Database new];
     

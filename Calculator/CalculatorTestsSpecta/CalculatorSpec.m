@@ -22,6 +22,7 @@ describe(@"Calculator", ^{
     beforeEach(^{
         
     });
+    
     describe(@"Calculator operations", ^{
         it(@"it should add to numbers correctly", ^{
             expect([Calculator addA:10 andB:10]).to.equal(20);
@@ -53,14 +54,15 @@ describe(@"Calculator", ^{
     
     describe(@"Performence Test", ^{
         it(@"should fetch result",^{
-                [self measureBlock:^{
-                    for (int i = 1; i <INT16_MAX; i++) {
-                        for (int k = 1; k <INT16_MAX; k++) {
-                        };
+            [self measureBlock:^{
+                for (int i = 1; i <INT16_MAX; i++) {
+                    for (int k = 1; k <INT16_MAX; k++) {
                     };
-                }];            
+                };
+            }];            
         });
     });
+    
     afterEach(^{
         
     });

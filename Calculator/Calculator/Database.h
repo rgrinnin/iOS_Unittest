@@ -9,8 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Database : NSObject
+
+@property int value;
+
 - (int)getPrimeNumber1337;
-- (int)get42;
+- (int)getDatabasedata;
 - (void) doSomething;
-- (void) doSomethingWithArgument:(id)item;
+- (void) doSomethingWithArgument:(int)value;
 @end

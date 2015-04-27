@@ -13,6 +13,8 @@
 		A619BEED1AEE5DE80026892F /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEEC1AEE5DE80026892F /* Database.m */; };
 		A619BEEF1AEE5F100026892F /* CalculatorTestsMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEEE1AEE5F100026892F /* CalculatorTestsMocking.m */; };
 		A619BEF11AEEB7E70026892F /* CalculatorTestsMockingVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEF01AEEB7E70026892F /* CalculatorTestsMockingVerify.m */; };
+		A619BEF31AEEC9130026892F /* CalculatorTestsMockingNice.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEF21AEEC9130026892F /* CalculatorTestsMockingNice.m */; };
+		A619BEF51AEED04B0026892F /* CalculatorTestsMockingStubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEF41AEED04B0026892F /* CalculatorTestsMockingStubbing.m */; };
 		A661424B1AED651C00202B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A661424A1AED651C00202B14 /* main.m */; };
 		A661424E1AED651C00202B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A661424D1AED651C00202B14 /* AppDelegate.m */; };
 		A66142511AED651C00202B14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66142501AED651C00202B14 /* ViewController.m */; };
@@ -61,6 +63,8 @@
 		A619BEEC1AEE5DE80026892F /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
 		A619BEEE1AEE5F100026892F /* CalculatorTestsMocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTestsMocking.m; sourceTree = "<group>"; };
 		A619BEF01AEEB7E70026892F /* CalculatorTestsMockingVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTestsMockingVerify.m; sourceTree = "<group>"; };
+		A619BEF21AEEC9130026892F /* CalculatorTestsMockingNice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTestsMockingNice.m; sourceTree = "<group>"; };
+		A619BEF41AEED04B0026892F /* CalculatorTestsMockingStubbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTestsMockingStubbing.m; sourceTree = "<group>"; };
 		A66142451AED651C00202B14 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66142491AED651C00202B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A661424A1AED651C00202B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -207,7 +211,9 @@
 				A66142641AED651C00202B14 /* CalculatorTests.m */,
 				A66142621AED651C00202B14 /* Supporting Files */,
 				A619BEEE1AEE5F100026892F /* CalculatorTestsMocking.m */,
+				A619BEF41AEED04B0026892F /* CalculatorTestsMockingStubbing.m */,
 				A619BEF01AEEB7E70026892F /* CalculatorTestsMockingVerify.m */,
+				A619BEF21AEEC9130026892F /* CalculatorTestsMockingNice.m */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -477,6 +483,8 @@
 				A619BEEF1AEE5F100026892F /* CalculatorTestsMocking.m in Sources */,
 				A66142651AED651C00202B14 /* CalculatorTests.m in Sources */,
 				A619BEF11AEEB7E70026892F /* CalculatorTestsMockingVerify.m in Sources */,
+				A619BEF51AEED04B0026892F /* CalculatorTestsMockingStubbing.m in Sources */,
+				A619BEF31AEEC9130026892F /* CalculatorTestsMockingNice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
