@@ -16,11 +16,11 @@ SpecBegin(Calculator)
 describe(@"Calculator", ^{
     
     beforeAll(^{
-
+        
     });
     
     beforeEach(^{
-
+        
     });
     describe(@"Calculator operations", ^{
         it(@"it should add to numbers correctly", ^{
@@ -41,20 +41,23 @@ describe(@"Calculator", ^{
     });
     
     describe((@"Networking calculations"), ^{
-        it(@"should fetch result from network",^AsyncBlock{
-            usleep(1000000);
-            expect(0).to.equal(0);
-        });
-        
-        
-    })
+        it(@"should fetch result from network",^{
+            waitUntil(^(DoneCallback done) {
+                usleep(1000000);
+                expect(0).to.equal(0);
+                done();
+            });
+            
+        });        
+    });
+    
     
     afterEach(^{
-
+        
     });
     
     afterAll(^{
-
+        
     });
 });
 

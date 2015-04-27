@@ -18,17 +18,16 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testAdd {
     XCTAssertEqual([Calculator addA:10 andB:10], 20, @"Addition Failed");
 }
+
 - (void)testSubtract {
     XCTAssertEqual([Calculator subtractA:10 andB:20], -10, @"Subtract Failed");
 }
@@ -36,11 +35,21 @@
 - (void)testMultiply {
     XCTAssertEqual([Calculator multiplyA:10 andB:2], 20, @"Multiply Failed");
 }
+
 - (void)testDivide {
     XCTAssertEqual([Calculator divideA:10 andB:2], 5, @"Divide Failed");
 }
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
+
+-(void)testNetworkCalculation{
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Waiting for network calculations"];
+    XCTAssert(true);
+    [expectation fulfill];
+    //XCTAssert(false);
+    [self waitForExpectationsWithTimeout:5.0 handler:nil];
+    
+}
+
+- (void)testPerformance{
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];

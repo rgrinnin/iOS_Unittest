@@ -8,37 +8,61 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-CalculatorTests-Specta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-CalculatorTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+		</dict>
+		<key>Pods-CalculatorTestsSpecta-Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CalculatorTestsSpecta-Specta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CalculatorTestsSpecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7B072DA2014BD5EC4F11F4D9</key>
+		<key>12A6A7494F2E5CD4E08E1669</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE55A744DE5ECE9B87CB0421</key>
+		<key>1DB24A29A12DAAA2615975A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DADD76F3ED36470B68744DA7</key>
+		<key>374F326DF230005120D6CF40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>818E0AE33D27FA04873634A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC83542A61729D3A29B92821</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB2719E46DFF92CAD6EC7B37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
