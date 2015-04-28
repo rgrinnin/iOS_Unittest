@@ -16,6 +16,7 @@
 		A619BEF11AEEB7E70026892F /* CalculatorTestsMockingVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEF01AEEB7E70026892F /* CalculatorTestsMockingVerify.m */; };
 		A619BEF31AEEC9130026892F /* CalculatorTestsMockingNice.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEF21AEEC9130026892F /* CalculatorTestsMockingNice.m */; };
 		A619BEF51AEED04B0026892F /* CalculatorTestsMockingStubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = A619BEF41AEED04B0026892F /* CalculatorTestsMockingStubbing.m */; };
+		A62EE14C1AEF07040034300E /* SnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A62EE14B1AEF07040034300E /* SnapshotTest.m */; };
 		A661424B1AED651C00202B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A661424A1AED651C00202B14 /* main.m */; };
 		A661424E1AED651C00202B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A661424D1AED651C00202B14 /* AppDelegate.m */; };
 		A66142511AED651C00202B14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66142501AED651C00202B14 /* ViewController.m */; };
@@ -69,6 +70,7 @@
 		A619BEF41AEED04B0026892F /* CalculatorTestsMockingStubbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTestsMockingStubbing.m; sourceTree = "<group>"; };
 		A619BEFC1AEEDCA70026892F /* CalculatorIntegrationTestsKif.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIntegrationTestsKif.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A619BEFF1AEEDCA80026892F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EE14B1AEF07040034300E /* SnapshotTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapshotTest.m; sourceTree = "<group>"; };
 		A66142451AED651C00202B14 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66142491AED651C00202B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A661424A1AED651C00202B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				A619BEF41AEED04B0026892F /* CalculatorTestsMockingStubbing.m */,
 				A619BEF01AEEB7E70026892F /* CalculatorTestsMockingVerify.m */,
 				A619BEF21AEEC9130026892F /* CalculatorTestsMockingNice.m */,
+				A62EE14B1AEF07040034300E /* SnapshotTest.m */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -545,6 +548,7 @@
 				A619BEEF1AEE5F100026892F /* CalculatorTestsMocking.m in Sources */,
 				A66142651AED651C00202B14 /* CalculatorTests.m in Sources */,
 				A619BEF11AEEB7E70026892F /* CalculatorTestsMockingVerify.m in Sources */,
+				A62EE14C1AEF07040034300E /* SnapshotTest.m in Sources */,
 				A619BEF51AEED04B0026892F /* CalculatorTestsMockingStubbing.m in Sources */,
 				A619BEF31AEEC9130026892F /* CalculatorTestsMockingNice.m in Sources */,
 			);
@@ -601,7 +605,7 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",
+					"$(inherited)",FB_REFERENCE_IMAGE_DIR="\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\““,
 				);
 				INFOPLIST_FILE = CalculatorTestsSpecta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -638,6 +642,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					FB_REFERENCE_IMAGE_DIR="\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\““,
 				);
 				INFOPLIST_FILE = CalculatorIntegrationTestsKif/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -687,7 +692,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",
+					"$(inherited)",FB_REFERENCE_IMAGE_DIR="\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\““,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -772,6 +777,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\\\"\"",
 				);
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

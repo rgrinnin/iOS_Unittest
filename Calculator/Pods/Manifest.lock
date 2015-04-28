@@ -1,5 +1,6 @@
 PODS:
   - Expecta (0.4.2)
+  - FBSnapshotTestCase (1.7)
   - KIF (3.2.1):
     - KIF/XCTest (= 3.2.1)
   - KIF/XCTest (3.2.1)
@@ -11,6 +12,7 @@ PODS:
 
 DEPENDENCIES:
   - Expecta
+  - FBSnapshotTestCase
   - KIF
   - OCHamcrest
   - OCMock
@@ -19,6 +21,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
+  FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
   KIF: ef1691e54e1d969c3b4fd0b5b56a3d7ddf37f216
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92

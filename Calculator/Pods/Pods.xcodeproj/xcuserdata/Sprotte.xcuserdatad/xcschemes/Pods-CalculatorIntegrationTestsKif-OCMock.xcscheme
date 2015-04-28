@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67A8C1C7108D63D69AC416BA"
+               BlueprintIdentifier = "B55C6EF3DDF9645FE32DA226"
                BuildableName = "libPods-CalculatorIntegrationTestsKif-OCMock.a"
                BlueprintName = "Pods-CalculatorIntegrationTestsKif-OCMock"
                ReferencedContainer = "container:Pods.xcodeproj">

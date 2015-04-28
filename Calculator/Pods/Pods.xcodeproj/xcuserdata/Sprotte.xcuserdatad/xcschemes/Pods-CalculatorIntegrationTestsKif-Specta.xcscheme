@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "758CA356B747FA98708D61F0"
+               BlueprintIdentifier = "1551C1BFD41D95C5306B95FF"
                BuildableName = "libPods-CalculatorIntegrationTestsKif-Specta.a"
                BlueprintName = "Pods-CalculatorIntegrationTestsKif-Specta"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_Expecta 4
 #define COCOAPODS_VERSION_PATCH_Expecta 2
 
+// FBSnapshotTestCase
+#define COCOAPODS_POD_AVAILABLE_FBSnapshotTestCase
+#define COCOAPODS_VERSION_MAJOR_FBSnapshotTestCase 1
+#define COCOAPODS_VERSION_MINOR_FBSnapshotTestCase 7
+#define COCOAPODS_VERSION_PATCH_FBSnapshotTestCase 0
+
 // OCHamcrest
 #define COCOAPODS_POD_AVAILABLE_OCHamcrest
 #define COCOAPODS_VERSION_MAJOR_OCHamcrest 4
