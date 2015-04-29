@@ -24,6 +24,7 @@
 		A66142561AED651C00202B14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66142551AED651C00202B14 /* Images.xcassets */; };
 		A66142591AED651C00202B14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66142571AED651C00202B14 /* LaunchScreen.xib */; };
 		A66142651AED651C00202B14 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A66142641AED651C00202B14 /* CalculatorTests.m */; };
+		A672161C1AEFE16F00CDF3A4 /* FBExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A672161B1AEFE16F00CDF3A4 /* FBExampleView.m */; };
 		A6D021791AEEE02900BCAEA1 /* ViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D021781AEEE02900BCAEA1 /* ViewControllerSpec.m */; };
 		D0A3E2299DF92E50ACC17CCA /* libPods-CalculatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB8F6CDB1A3712FFF8BC418 /* libPods-CalculatorTests.a */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,8 @@
 		A661425E1AED651C00202B14 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66142631AED651C00202B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A66142641AED651C00202B14 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		A672161A1AEFE16F00CDF3A4 /* FBExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBExampleView.h; path = "../../../../../Desktop/Objective C/Snapshot/FBSnapshotTestCaseDemo/FBSnapshotTestCaseDemo/FBExampleView.h"; sourceTree = "<group>"; };
+		A672161B1AEFE16F00CDF3A4 /* FBExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBExampleView.m; path = "../../../../../Desktop/Objective C/Snapshot/FBSnapshotTestCaseDemo/FBSnapshotTestCaseDemo/FBExampleView.m"; sourceTree = "<group>"; };
 		A6D021781AEEE02900BCAEA1 /* ViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSpec.m; sourceTree = "<group>"; };
 		CA8D746B3C3FF43E8ACEF726 /* Pods-CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		E1702B85E06C57FA47D4FBC5 /* libPods-CalculatorIntegrationTestsKif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorIntegrationTestsKif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +214,8 @@
 		A66142471AED651C00202B14 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A672161A1AEFE16F00CDF3A4 /* FBExampleView.h */,
+				A672161B1AEFE16F00CDF3A4 /* FBExampleView.m */,
 				A661424C1AED651C00202B14 /* AppDelegate.h */,
 				A661424D1AED651C00202B14 /* AppDelegate.m */,
 				A661424F1AED651C00202B14 /* ViewController.h */,
@@ -536,6 +541,7 @@
 				A66142511AED651C00202B14 /* ViewController.m in Sources */,
 				A619BEED1AEE5DE80026892F /* Database.m in Sources */,
 				A619BED51AED6EC90026892F /* Calculator.m in Sources */,
+				A672161C1AEFE16F00CDF3A4 /* FBExampleView.m in Sources */,
 				A661424E1AED651C00202B14 /* AppDelegate.m in Sources */,
 				A661424B1AED651C00202B14 /* main.m in Sources */,
 			);
@@ -605,7 +611,7 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",FB_REFERENCE_IMAGE_DIR="\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\““,
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = CalculatorTestsSpecta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -642,7 +648,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					FB_REFERENCE_IMAGE_DIR="\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\““,
 				);
 				INFOPLIST_FILE = CalculatorIntegrationTestsKif/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -692,7 +697,8 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",FB_REFERENCE_IMAGE_DIR="\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\““,
+					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\\\"\"",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -731,6 +737,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\\\"\"";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -777,7 +784,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\\\"\"",
 				);
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
