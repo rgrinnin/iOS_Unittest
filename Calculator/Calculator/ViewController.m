@@ -18,6 +18,7 @@ char nextOperation;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"Temporary directory is: %@", NSTemporaryDirectory());
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
