@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A5C201BBEB47DC5064B0DFB"
+               BlueprintIdentifier = "CD4F4A249DB0B89B0124B128"
                BuildableName = "libPods-CalculatorIntegrationTestsKif-Expecta.a"
                BlueprintName = "Pods-CalculatorIntegrationTestsKif-Expecta"
                ReferencedContainer = "container:Pods.xcodeproj">

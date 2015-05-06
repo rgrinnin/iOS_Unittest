@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E6126FCF01E214B0AFD790F"
+               BlueprintIdentifier = "CA869D079B87F6A99B0D1D70"
                BuildableName = "libPods-CalculatorTestsSpecta-OCHamcrest.a"
                BlueprintName = "Pods-CalculatorTestsSpecta-OCHamcrest"
                ReferencedContainer = "container:Pods.xcodeproj">

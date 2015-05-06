@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4847F5731703DAA7AEEA9465"
+               BlueprintIdentifier = "76EF567706C59355969DFD66"
                BuildableName = "libPods-CalculatorTests-OCMock.a"
                BlueprintName = "Pods-CalculatorTests-OCMock"
                ReferencedContainer = "container:Pods.xcodeproj">

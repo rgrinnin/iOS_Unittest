@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B55C6EF3DDF9645FE32DA226"
+               BlueprintIdentifier = "9F8492D81AAC15B055553F8A"
                BuildableName = "libPods-CalculatorIntegrationTestsKif-OCMock.a"
                BlueprintName = "Pods-CalculatorIntegrationTestsKif-OCMock"
                ReferencedContainer = "container:Pods.xcodeproj">

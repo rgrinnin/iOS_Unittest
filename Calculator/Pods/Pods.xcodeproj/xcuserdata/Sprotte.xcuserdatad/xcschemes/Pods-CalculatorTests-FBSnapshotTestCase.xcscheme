@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "61A059A8928775C274CBA1C7"
+               BlueprintIdentifier = "F84125B7BFB18615D09CD80B"
                BuildableName = "libPods-CalculatorTests-FBSnapshotTestCase.a"
                BlueprintName = "Pods-CalculatorTests-FBSnapshotTestCase"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "893360CC2684E839E2FD5FAE"
+               BlueprintIdentifier = "B3AFBB15C3256059069584D9"
                BuildableName = "libPods-CalculatorTests-Expecta.a"
                BlueprintName = "Pods-CalculatorTests-Expecta"
                ReferencedContainer = "container:Pods.xcodeproj">

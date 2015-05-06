@@ -1,14 +1,14 @@
 PODS:
-  - Expecta (0.4.2)
-  - FBSnapshotTestCase (1.7)
-  - KIF (3.2.1):
-    - KIF/XCTest (= 3.2.1)
-  - KIF/XCTest (3.2.1)
+  - Expecta (1.0.0)
+  - FBSnapshotTestCase (1.8.1)
+  - KIF (3.2.2):
+    - KIF/XCTest (= 3.2.2)
+  - KIF/XCTest (3.2.2)
   - OCHamcrest (4.1.1)
   - OCMock (3.1.2)
   - OCMockito (1.4.0):
     - OCHamcrest (~> 4.0)
-  - Specta (0.5.0)
+  - Specta (1.0.0)
 
 DEPENDENCIES:
   - Expecta
@@ -20,12 +20,12 @@ DEPENDENCIES:
   - Specta
 
 SPEC CHECKSUMS:
-  Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
-  FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
-  KIF: ef1691e54e1d969c3b4fd0b5b56a3d7ddf37f216
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
+  KIF: b0bd762b0c7890b04920cf618021d6d4fd5127bd
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
   OCMockito: 4981140c9a9ec06c31af40f636e3c0f25f27e6b2
-  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+  Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
 
-COCOAPODS: 0.37.0.beta.1
+COCOAPODS: 0.37.0
