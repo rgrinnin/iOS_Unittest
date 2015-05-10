@@ -37,12 +37,16 @@
     
     [self.niceDatabase getDatabasedata];
     
+    //int i = [self.niceDatabase getPrimeNumber1337];
+    
     [self.niceDatabase verify];    
 }
 
 - (void)testOCMockSerious{
     
     [[self.seriousDatabase expect] getDatabasedata];
+    
+    //int i = [self.seriousDatabase getPrimeNumber1337];
     
     [self.seriousDatabase getDatabasedata];
     
