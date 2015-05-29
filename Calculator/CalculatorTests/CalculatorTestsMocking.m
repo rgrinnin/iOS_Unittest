@@ -26,6 +26,7 @@
 
 @implementation CalculatorTestsMocking
 
+
 - (void)testPrimeNumber1337OCMock {
     Database *database = [Database new];
     
@@ -36,6 +37,7 @@
     expect([mockDatabase getPrimeNumber1337]).will.equal(42);
 }
 
+
 - (void)testPrimeNumber1337OCMockito{
     Database *mockDatabase = mock([Database class]);
     
@@ -43,6 +45,7 @@
     
     expect([mockDatabase getPrimeNumber1337]).will.equal(42);
 }
+
 
 - (void)testVerifyOCMock{
     id mockDatabase = OCMClassMock([Database class]);

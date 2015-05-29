@@ -42,14 +42,18 @@
 
 -(void)testNetworkCalculation{
     XCTestExpectation *expectation = [self expectationWithDescription:@"Waiting for network calculations"];
+    
+    
+    
+    
     XCTAssert(true);
     [expectation fulfill];
     //XCTAssert(false);
     [self waitForExpectationsWithTimeout:5.0 handler:nil];
     
 }
-/*
-- (void)testPerformance{
+
+- (void)_SKIPtestPerformance{
     [self measureBlock:^{
         for (int i = 1; i <INT16_MAX; i++) {
             for (int k = 1; k <INT16_MAX; k++) {
@@ -57,5 +61,5 @@
         };
     }];
 }
-*/
+
 @end

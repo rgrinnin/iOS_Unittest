@@ -10,21 +10,14 @@
 #import "ViewController.h"
 #import <KIF.h>
 #import "Expecta.h"
+
 SpecBegin(ViewController)
 NSArray* array = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"0",@"+",@"-",@"/",@"*",@"C",@"=",];
-describe(@"ViewController", ^{
+describe(@"basic arith", ^{
     
-    beforeAll(^{
-
-    });
-    
-    beforeEach(^{
-
-    });
-    
-    describe(@"Tab controller", ^{
+    describe(@"do operations nd showing result", ^{
         
-        it(@"should do stuff", ^{
+        it(@"should add tow numbers and displying the right result", ^{
             [tester tapViewWithAccessibilityLabel:@"1" traits:UIAccessibilityTraitButton];
             [tester tapViewWithAccessibilityLabel:@"+" traits:UIAccessibilityTraitButton];
             [tester tapViewWithAccessibilityLabel:@"1" traits:UIAccessibilityTraitButton];
@@ -33,7 +26,7 @@ describe(@"ViewController", ^{
             expect([tableView.text intValue]).to.equal(2);
         });
         
-        it(@"should do stuff", ^{
+        it(@"should do random stuff", ^{
             for(int i = 0; i < 100;i++){
                 [tester tapViewWithAccessibilityLabel:array[(int)arc4random_uniform(array.count)] traits:UIAccessibilityTraitButton];
 
@@ -42,17 +35,6 @@ describe(@"ViewController", ^{
         
     });
     
-    it(@"", ^{
-
-    });  
-    
-    afterEach(^{
-
-    });
-    
-    afterAll(^{
-
-    });
 });
 
 SpecEnd

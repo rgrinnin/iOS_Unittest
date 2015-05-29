@@ -36,6 +36,8 @@
 {
     [given([self.databaseMocktio getDatabasedata]) willReturnInteger:3];
     
+    int i = [self.databaseMocktio getPrimeNumber1337];
+    
     expect([self.databaseMocktio getDatabasedata]).to.equal(3);
 }
 
@@ -43,6 +45,8 @@
 - (void)testOCMockStub
 {
     [[[self.databaseOCMock  stub] andReturnValue:@42] getPrimeNumber1337];
+    
+    int i = [self.databaseOCMock getDatabasedata];
     
     expect([self.databaseOCMock  getPrimeNumber1337]).will.equal(42);
 }

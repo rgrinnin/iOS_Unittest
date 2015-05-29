@@ -46,7 +46,7 @@
     
     [[self.seriousDatabase expect] getDatabasedata];
     
-    //int i = [self.seriousDatabase getPrimeNumber1337];
+    int i = [self.seriousDatabase getPrimeNumber1337];
     
     [self.seriousDatabase getDatabasedata];
     

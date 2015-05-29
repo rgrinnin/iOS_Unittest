@@ -29,7 +29,7 @@
     [super tearDown];
 }
 
-- (void)_SKIPtestExample {
+- (void)testExample {
     ViewController *vc = [ViewController new];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     vc = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
