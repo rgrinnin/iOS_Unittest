@@ -1,0 +1,11 @@
+[caps]
+appium-version = “1.3.7″
+platformName = “ios”
+platformVersion = “8.3″
+deviceName = “iPad Air”
+udid = "8dca6256afe3b1665e94738285303338ff0e7524"
+app = "CalculatorDevice.app.zip"
+
+
+
+
